@@ -1,0 +1,30 @@
+.title-sign {
+  color: #191919;
+  font-size: 52px;
+  font-weight: 800;
+  letter-spacing: -1.04px;
+  line-height: 65px;
+  text-align: center;
+}
+.sign-a {
+  color: #0070f4;
+  font-size: 14px;
+  letter-spacing: -0.16px;
+  line-height: 21px;
+}
+.sign-text {
+  color: #7f7f7f;
+  letter-spacing: -0.16px;
+  line-height: 24px;
+}
+.text-sign {
+  color: #666666;
+  font-size: 20px;
+  letter-spacing: -0.16px;
+  line-height: 30px;
+}
+@media only screen and (max-width: 768px) {
+  .title-sign {
+    font-size: 42px;
+  }
+}

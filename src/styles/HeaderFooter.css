@@ -1,0 +1,82 @@
+.btn-sign {
+  padding: 9px 9px 9px 17px;
+}
+.header-blug {
+  backdrop-filter: blur(3px);
+  -webkit-backdrop-filter: blur(3px);
+}
+.nav-mobile {
+  position: fixed;
+  left: 0px;
+  top: 60px;
+}
+@media only screen and (max-width: 400px) {
+  .logo-header {
+    width: auto;
+    height: auto;
+    display: block;
+  }
+}
+/*side bar*/
+.bg-sidebar {
+  background-color: rgb(24, 24, 25);
+}
+.size-sidebar {
+  min-height: 100vh;
+  max-height: 100vh;
+}
+.logo-sidebar img {
+  width: 125px;
+  height: 32px;
+}
+.p-sidebar {
+}
+.icon-sidebar svg {
+  font-size: 14px;
+}
+.active:after {
+  content: "";
+  border-left: 2px solid rgb(9, 194, 106);
+  height: 100%;
+  display: block;
+  position: absolute;
+  right: 0px;
+  top: 0px;
+}
+.menu-item:hover::before {
+  content: "";
+  border-left: 2px solid rgb(236, 237, 234);
+  height: 100%;
+  display: block;
+  position: absolute;
+  right: 0px;
+  top: 0px;
+}
+.active .text-color-menu-item,
+.menu-item:hover .text-color-menu-item {
+  color: rgb(0, 0, 0);
+}
+.text-color-menu-item {
+  color: rgb(64, 64, 64);
+}
+
+/*header dashboard*/
+.icon-plan-header-dashboard svg {
+  font-size: 14px;
+  color: rgb(9, 194, 106);
+}
+.icon-create-account-header-dashboard {
+  font-size: 12px;
+}
+.btn-header-dashboard {
+  background-color: rgb(229, 231, 235);
+}
+.btn-header-dashboard:hover {
+  background-color: rgb(234, 236, 239);
+}
+/*header dashboard page*/
+.navigation .navigation-text {
+  font-weight: 400;
+  font-size: 9.50926px;
+  line-height: 12px;
+}

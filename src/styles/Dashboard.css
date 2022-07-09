@@ -1,0 +1,33 @@
+.bg-dashboard {
+  background-color: rgb(243, 244, 246);
+}
+.bg-manage-video {
+  background-color: rgb(42, 42, 43);
+}
+
+/*item table*/
+.video-size video {
+  width: 100px !important;
+  height: 100px !important;
+  border-radius: 16px;
+}
+/* watch video manage*/
+.video {
+  width: 100% !important;
+  border-radius: 50px;
+}
+.video video {
+  border-radius: 50px;
+}
+.video .video-react-control-bar {
+  border-radius: 0px 0px 50px 50px;
+  padding: 0px 10px;
+}
+.customer-information {
+  color: #b5b0b0;
+  line-height: 20px;
+  font-weight: 300;
+}
+.max-h-information {
+  align-self: stretch;
+}

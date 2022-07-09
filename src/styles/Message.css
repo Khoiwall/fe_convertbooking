@@ -1,0 +1,98 @@
+.mes-postion {
+  bottom: 28px;
+  right: 24px;
+  width: 360px !important;
+}
+.mes-header {
+  padding: 10px 20px;
+  background-image: linear-gradient(
+    125deg,
+    #1972f5 -10%,
+    #004ab5 100%
+  ) !important;
+  background-color: #1972f5 !important;
+}
+.mes-header::before {
+  content: "" !important;
+  background-repeat: repeat !important;
+  background-image: url("https://client.crisp.chat/static/images/tiles/bathroom-floor.svg?75d9fae") !important;
+  background-size: 32px !important;
+  opacity: 0.05 !important;
+  position: absolute !important;
+  left: 0 !important;
+  right: 0 !important;
+  top: 0 !important;
+  bottom: 0 !important;
+  z-index: 0 !important;
+  height: 100px !important;
+}
+.mess-title {
+  font-size: 12.5px;
+  letter-spacing: 0.2px;
+  line-height: 20px;
+  letter-spacing: 0.2px !important;
+  white-space: nowrap !important;
+  font-weight: 600;
+}
+.mess-text-active {
+  font-size: 11.6px;
+  color: #d0e0f7;
+  letter-spacing: 0.2px;
+  line-height: 16px;
+  letter-spacing: 0.2px !important;
+  white-space: nowrap !important;
+}
+.mes-content {
+  background-color: #f5f8fb;
+  max-height: 331px;
+  min-height: 331px;
+  overflow: auto;
+}
+.mes-content-p {
+  padding-left: 50px;
+  padding-right: 10px;
+}
+.mess-item {
+  font-size: 11px !important;
+  font-weight: 400 !important;
+  -webkit-font-smoothing: subpixel-antialiased !important;
+  -moz-osx-font-smoothing: auto !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+.mes-icon-postion {
+  left: -40px;
+  bottom: 1px;
+}
+.mes-icon-color svg {
+  color: rgb(24, 114, 246);
+  font-size: 20px;
+}
+.mes-content-text {
+  font-size: 12.6px;
+  line-height: 18px;
+}
+.me-form {
+  border-top: 1px solid;
+  border-bottom: 1px solid;
+  border-color: rgb(212, 224, 242);
+}
+.mes-footer {
+  background-color: rgb(254, 254, 254);
+  box-shadow: 0 12px 20px 0 rgba(0, 0, 0, 0.15) !important;
+}
+.mes-footer-text {
+  font-size: 11.6px;
+  line-height: 16px;
+  color: rgb(80, 80, 80);
+}
+.mes-footer-icon {
+  font-size: 11.6px;
+  line-height: 16px;
+  color: rgb(80, 80, 80);
+  font-weight: 600;
+}
+.mes-footer-icon svg {
+  margin-left: 6px;
+  margin-right: 2px;
+}

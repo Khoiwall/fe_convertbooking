@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="246px" height="31px" viewBox="0 0 246 31" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>ConvertBooking</title>
+    <g id="Eng" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="32" font-weight="bold">
+        <g id="Pricing-" transform="translate(-124.000000, -48.000000)">
+            <text id="ConvertBooking">
+                <tspan x="123.628" y="72" fill="#7F40A8">Convert</tspan>
+                <tspan x="244.588" y="72" fill="#009FE3">Booking</tspan>
+            </text>
+        </g>
+    </g>
+</svg>
